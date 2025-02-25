@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container{
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 290px;
+    height: 470px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+h1,h2{
+    margin: 0;
+}
+h2{
+    margin-bottom: 8px;
+}
+
+.form-container-heading,input,button{
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+
+input{
+    margin-bottom: 10px;
+  
+}
